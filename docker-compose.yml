@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  bot:
+    build: .
+    container_name: igbot
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - MAX_SIZE_MB=${MAX_SIZE_MB:-49}
+    restart: unless-stopped

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+.coverage
+.cache/
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# VCS/IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Builds/Dist
+build/
+dist/
+*.egg-info/
+
+# Logs/Temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Env files
+.env
+.env.*
